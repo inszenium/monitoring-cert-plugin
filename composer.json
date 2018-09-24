@@ -1,0 +1,37 @@
+{
+    "name": "inszenium/monitoring-cert-plugin",
+    "description": "Extended the Contao Monitoring Plugin.",
+    "type": "contao-module",
+    "keywords":["contao", "monitoring", "letsencrypt", "ssl", "cert"],
+    "homepage":"https://inszenium.de/",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Kirsten Roschanski",
+			"email":"kirsten.roschanski@inszenium.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"info@inszenium.de",
+		"issues":"https://github.com/inszenium/monitoring-cert-plugin/issues",
+		"source":"https://github.com/inszenium/monitoring-cert-plugin"
+	},
+	"require":{
+		"php":"^7.0",
+		"ext-intl":"*",
+		"contao/core-bundle":"~3.2 || ~4.4",
+		"contao-monitoring/monitoring":"~1.8"
+		"spatie/ssl-certificate":"~1.12"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"src":"system/modules/MonitoringCert"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
