@@ -21,7 +21,7 @@
 		"php":"^7.0",
 		"ext-intl":"*",
 		"contao/core-bundle":"~3.2 || ~4.4",
-		"contao-monitoring/monitoring":"~1.8"
+		"contao-monitoring/monitoring":"~1.8",
 		"spatie/ssl-certificate":"~1.12"
 	},
 	"extra":{
