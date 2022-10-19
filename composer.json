@@ -20,7 +20,6 @@
 	"require":{
 		"php":"^7.0 || ^8.0 || ^8.1",
 		"ext-intl":"*",
-		"contao/core-bundle":"~3.2 || ~4.4",
 		"contao-monitoring/monitoring":"~1.8",
 		"spatie/ssl-certificate":"~1.12"
 	},
